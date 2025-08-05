@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 # How To Run !
 - for front-end : npm run dev
 - for back-end : npx json-server --watch Data/db.json --port 5000
+
+Before Launching
+- npm init -y
+- To install the packages
