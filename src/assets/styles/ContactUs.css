@@ -1,0 +1,64 @@
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact-text h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.contact-text p {
+  color: white;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-text h2 span {
+  color: #ff7777;
+}
+
+.contact-text h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
+.contact-text p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.contact-form form input,
+form textarea {
+  width: 100%;
+  padding: 14px;
+  background-color: rgba(255, 255, 255, 0.808);
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-form .submit {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #ff7777;
+  color: white;
+  transition: all 0.45s ease;
+}
+
+.contact-form .submit:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

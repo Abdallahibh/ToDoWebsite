@@ -1,0 +1,29 @@
+.footer {
+  font-size: small;
+  background-color: rgba(59, 59, 59, 0.719);
+  position: relative;
+  bottom: 0;
+  padding: 30px;
+}
+
+.footer a {
+  color: #000;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  color: #ff7777;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.rights {
+  text-align: center;
+  padding-top: 20px;
+}

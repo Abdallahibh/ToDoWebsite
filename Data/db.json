@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "c6bf",
+      "username": "abdallah",
+      "password": "1234"
+    },
+    {
+      "id": "b0cf",
+      "username": "abdallah1234",
+      "password": "1234"
+    },
+    {
+      "id": "ed6c",
+      "username": "asdasd",
+      "password": "1234"
+    },
+    {
+      "id": "91cb",
+      "username": "test",
+      "password": "123456"
+    },
+    {
+      "id": "3245",
+      "username": "ewrwer",
+      "password": "123123"
+    },
+    {
+      "id": "961f",
+      "username": "ahmed",
+      "password": "123123"
+    },
+    {
+      "id": "049f",
+      "username": "abdallahda",
+      "password": "123123"
+    },
+    {
+      "id": "9c32",
+      "username": "testdiscussion",
+      "password": "123123"
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Wake Up at 9 am",
+      "description": "Wake Up at 8 am in the Morning",
+      "priority": "High",
+      "dueDate": "2024-08-09",
+      "status": "completed",
+      "id": "b740"
+    },
+    {
+      "id": "3abd",
+      "name": "asd",
+      "description": "asd",
+      "priority": "High",
+      "dueDate": "2024-10-22",
+      "status": "completed"
+    }
+  ]
+}

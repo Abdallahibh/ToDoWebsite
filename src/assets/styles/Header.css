@@ -1,0 +1,116 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 0 2rem;
+  background-color: rgba(0, 0, 0, 50%);
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+}
+
+header .logo .sizelogo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+header .navbar .links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+header .navbar .links :hover {
+  color: #ff7777;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul .links {
+  padding: 0;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar .toggle_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn {
+  background-color: #ff7777;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+}
+
+.action_btn:hover {
+  scale: 1.1;
+}
+
+li a,
+.action_btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
+.buttonLR {
+  display: flex;
+  gap: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.user-info .action_btn {
+  margin-left: 10px;
+}
