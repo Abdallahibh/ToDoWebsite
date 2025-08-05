@@ -14,3 +14,7 @@ Currently, two official plugins are available:
 Before Launching
 - npm init -y
 - To install the packages
+
+
+## Project Preview
+<img width="1360" height="744" alt="ToDist-08-05-2025_07_08_PM" src="https://github.com/user-attachments/assets/1fb3500d-5116-4a31-9c13-192a71121261" />
